@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../components/buttons/Button';
+import Button from '../../components/buttons/button';
 
 const AccordionItem = ({ question, answer }) => (
     <details className="group [&_summary::-webkit-details-marker]:hidden">

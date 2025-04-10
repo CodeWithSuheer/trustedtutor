@@ -6,7 +6,7 @@ import img3 from "../../assets/images/prof/professional3.svg"
 import img4 from "../../assets/images/prof/professional4.svg"
 import img5 from "../../assets/images/prof/professional5.svg"
 import img6 from "../../assets/images/prof/professional6.svg"
-import Button from '../../components/buttons/Button';
+import Button from '../../components/buttons/button';
 
 const HomeProfessionals = () => {
 

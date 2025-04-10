@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Button from '../../components/buttons/Button'
+import Button from '../../components/buttons/button'
 import EmailFormForHome from '../../components/EmailFormForHome'
 import { FaCircleCheck } from 'react-icons/fa6'
 import { IoChatbox } from 'react-icons/io5'
