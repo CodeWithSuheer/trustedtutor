@@ -1,5 +1,4 @@
 import React from 'react'
-import { LuMessagesSquare } from "react-icons/lu";
 
 const Button = ({ text = "Order Now" }) => {
     return (
