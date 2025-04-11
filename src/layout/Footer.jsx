@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
-import newLogo from '../../public/asset/newLogo.png';
+import newLogo from '../../public/asset/newLogo2.png';
 import { APP_EMAIL, APP_NAME, APP_PHONE } from "../constants/contants";
 import { MdEmail } from "react-icons/md";
 
@@ -54,12 +54,11 @@ const Footer = () => {
 
 
                 <div className="relative max-w-7xl mx-auto">
-                    <div className="pt-36 pb-14 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
+                    <div className="pt-24 pb-14 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
                         {/* LOGO & HEADING */}
                         <div className="sm:col-span-2">
                             <h1 className="max-w-lg flex items-center text-xl font-semibold tracking-tight text-light xl:text-2xl">
-                                <img className='-ml-3 w-12' src={newLogo} alt="logo" />
-                                {APP_NAME}
+                                <img className='-ml-3 h-32' src={newLogo} alt="logo" />
                             </h1>
                             <p className="max-w-md text-[1rem] mt-3">
                                 We offer unparalleled services that set us
@@ -71,7 +70,7 @@ const Footer = () => {
                         </div>
 
                         {/* QUICK LINKS */}
-                        <div>
+                        <div className="pt-5 sm:pt-24">
                             <p className="text-xl font-semibold text-light">Quick Links</p>
                             <ul className="mt-3 space-y-2">
                                 {[
@@ -92,7 +91,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div>
+                        <div className="pt-5 sm:pt-24">
                             <p className="text-xl font-semibold text-light">Usefull Links</p>
                             <ul className="mt-3 space-y-2">
                                 {[
@@ -116,7 +115,7 @@ const Footer = () => {
 
 
                         {/* Contact Info */}
-                        <div>
+                        <div className="pt-5 sm:pt-24">
                             <p className="text-xl font-semibold text-light">
                                 Contact Info
                             </p>
