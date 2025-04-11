@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhone } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
-import newLogo from '../../public/asset/newLogo2.png';
-import { APP_EMAIL, APP_NAME, APP_PHONE } from "../constants/contants";
+import { APP_EMAIL, APP_PHONE } from "../constants/contants";
 import { MdEmail } from "react-icons/md";
+
+import newLogo from '../../public/asset/NewLogo2.png';
 
 
 const Footer = () => {
