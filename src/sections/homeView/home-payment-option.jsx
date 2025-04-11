@@ -8,7 +8,7 @@ const HomePaymentOption = () => {
   return (
     <>
       <section className='w-full'>
-        <div className="max-w-7xl mx-auto pt-8 pb-16">
+        <div className="max-w-7xl mx-auto pt-8 px-4 sm:px-0 pb-16">
           {/* --------------- HEADER TEXT ---------------  */}
           <h2 className="mb-3 font-bold  text-3xl md:text-4xl mx-auto text-dark text-center">
             A Variety Of <span className='text-primary-one'>Flexible Payment </span> Options To Meet
