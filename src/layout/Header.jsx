@@ -1,13 +1,19 @@
 import { useState, useEffect } from "react"
 import { FaClock, FaPhone, FaComments, FaArrowRight, FaBars, FaTimes } from "react-icons/fa"
 import newLogo from '../../public/asset/newLogo.png';
-import { APP_EMAIL, APP_NAME, APP_PHONE } from "../constants/contants";
+import { APP_PHONE } from "../constants/contants";
 import ButtonSq from "../components/buttons/buttonSq";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
+  const links = [
+    { to: "/", label: "Home" },
+    { to: "/about", label: "About Us" },
+    { to: "/contact", label: "Contact Us" },
+  ];
 
   // Handle scroll effect
   useEffect(() => {
@@ -30,7 +36,7 @@ const Header = () => {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center mb-4 lg:mb-0">
-            <img className='w-20' src={newLogo} alt="logo" />
+            <img className='w-22' src={newLogo} alt="logo" />
             <div className="ml-2">
               <div className="text-orange-500 font-bold text-lg leading-tight">TRUSTED</div>
               <div className="text-gray-700 font-bold text-lg leading-tight">CLASS HELPER</div>
@@ -126,14 +132,14 @@ const Header = () => {
         <div className="container mx-auto px-4">
           {/* Desktop Navigation */}
           <ul className="hidden lg:flex">
-            {["HOME", "ABOUT US", "CONTACT US"].map((item, index) => (
+            {links.map((link, index) => (
               <li key={index}>
-                <a
-                  href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
+                <Link
+                  to={link.to}
                   className="text-white font-medium block py-4 px-6"
                 >
-                  {item}
-                </a>
+                  {link.label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -143,13 +149,13 @@ const Header = () => {
             <ul className="flex flex-col">
               {["HOME", "ABOUT US", "OUR SERVICES", "SUBJECTS", "CONTACT US"].map((item, index) => (
                 <li key={index}>
-                  <a
-                    href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
+                  <Link
+                    to={`${item.toLowerCase().replace(/\s+/g, "-")}`}
                     className="text-white font-medium block py-3 hover:bg-orange-600 transition-colors text-[0.85rem]"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

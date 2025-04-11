@@ -1,20 +1,9 @@
 import React from 'react'
+import apple from '../../assets/images/payment/apple.png'
+import master from '../../assets/images/payment/master.png'
+import paypal from '../../assets/images/payment/paypal1.png'
 
 const HomePaymentOption = () => {
-  const Institutions = [
-    {
-      img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/image_4.png?v=1713358377",
-    },
-    {
-      img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/image_5.png?v=1713358380",
-    },
-    {
-      img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/image_8.png?v=1713358378",
-    },
-    {
-      img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/image_9.png?v=1713358378",
-    },
-  ]
 
   return (
     <>
@@ -26,12 +15,10 @@ const HomePaymentOption = () => {
             Your Needs
           </h2>
 
-          <div className="flex w-full justify-center items-center flex-wrap gap-5 mt-10">
-            {Institutions?.map((data, index) => (
-              <div key={index}>
-                <img className="w-[6.5rem] mx-6 sm:mx-10" src={data?.img} alt="payment method" />
-              </div>
-            ))}
+          <div className="flex w-full justify-center flex-col sm:flex-row items-center flex-wrap gap-5 mt-10">
+            <img className="w-[5rem] sm:w-[6.5rem] mx-6 sm:mx-10" src={master} alt="payment method" />
+            <img className="w-[4rem] sm:w-[4.5rem] mx-6 sm:mx-10" src={paypal} alt="payment method" />
+            <img className="w-[5rem] sm:w-[6.5rem] mx-6 sm:mx-10" src={apple} alt="payment method" />
           </div>
         </div>
       </section>

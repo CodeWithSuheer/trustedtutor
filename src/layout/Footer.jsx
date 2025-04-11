@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 import newLogo from '../../public/asset/newLogo.png';
 import { APP_EMAIL, APP_NAME, APP_PHONE } from "../constants/contants";
+import { MdEmail } from "react-icons/md";
 
 
 const Footer = () => {
@@ -76,7 +77,7 @@ const Footer = () => {
                                 {[
                                     { label: "Home", to: "/" },
                                     { label: "About Us", to: "/about" },
-                                    { label: "Contact Us", to: "/contact us" },
+                                    { label: "Contact Us", to: "/contact" },
                                 ].map((link) => (
                                     <li key={link.to}>
                                         <Link
@@ -96,7 +97,6 @@ const Footer = () => {
                             <ul className="mt-3 space-y-2">
                                 {[
                                     { label: "Privacy Policy", to: "/privacy-policy" },
-                                    { label: "Terms & Condition", to: "/tac" }
                                 ].map((link) => (
                                     <li key={link.to}>
                                         <Link
@@ -108,6 +108,9 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                 ))}
+                                <li className="cursor-pointer" onClick={() => { Tawk_API.toggle(); }}>
+                                    Chat Now
+                                </li>
                             </ul>
                         </div>
 
@@ -122,21 +125,23 @@ const Footer = () => {
                                 <a href="tel:+1-352-771-6234" className="flex items-center gap-2">
                                     <FaPhone /> {APP_PHONE}
                                 </a>
+                                <a href="mailto:trustedclasshelper@gmail.com" className="flex items-center gap-2">
+                                    <MdEmail /> {APP_EMAIL}
+                                </a>
 
                                 {/* SOCIAL LINKS */}
-                                <div className="links pt-2 flex items-center justify-start gap-2.5">
+                                {/* <div className="links pt-2 flex items-center justify-start gap-2.5">
                                     <a href="https://www.facebook.com/StudyHelpers" target="_blank" className=""><FaFacebookF className="text-light bg-button h-7 w-7 p-1.5 rounded-full" /></a>
                                     <a href="#" className=""><FaInstagram className="text-light bg-button h-7 w-7 p-1.5 rounded-full" /></a>
                                     <a href="#" className=""><FaLinkedinIn className="text-light bg-button h-7 w-7 p-1.5 rounded-full" /></a>
                                     <a href="#" className=""><FaTiktok className="text-light bg-button h-7 w-7 p-1.5 rounded-full" /></a>
-                                </div>
+                                </div> */}
 
                                 {/* PAYMENT METHODS */}
                                 <div className="paymentMethods pt-2 flex items-center justify-start gap-2">
                                     <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299" alt="" />
                                     <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530" alt="" />
                                     <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/visa.png?v=1713215529" alt="" />
-                                    <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529" alt="" />
                                 </div>
                             </div>
                         </div>

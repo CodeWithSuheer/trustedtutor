@@ -16,6 +16,8 @@ import NotFound from "./sections/NotFound";
 import HomePage from "./pages/home/homePage";
 import AboutPage from "./pages/about/aboutPage";
 import ContactPage from "./pages/contact/contactPage";
+import HeaderMobile from "./layout/HeaderMobile";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 
 function App() {
@@ -41,12 +43,13 @@ function App() {
           onLoad={onLoad}
         />
 
-        <Header />
+        {window.innerWidth >= 768 ? <Header /> : <HeaderMobile />}
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
 
         <WhatsappButton />

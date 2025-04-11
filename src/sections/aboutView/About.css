@@ -1,0 +1,35 @@
+.about {
+    position: relative;
+    background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_32.png?v=1713436426");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.aboutUs_backgroundImage {
+    position: relative;
+    background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/24397.jpg?v=1736001557");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    color: white;
+    z-index: 0;
+}
+
+.aboutUs_backgroundImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c7976180;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.box_shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

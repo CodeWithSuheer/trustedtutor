@@ -1,22 +1,20 @@
+import { APP_EMAIL, APP_PHONE } from "../../constants/contants";
 
 const Contact = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 pt-10">
-        <div className="container px-6 py-12 mx-auto">
+      <section className="bg-white pb-20">
+        <div className="container px-4 sm:px-6 pt-8 pb-12 sm:py-8 mx-auto">
           <div className="text-center ">
-            <p className="font-medium text-primaryText">Contact us</p>
-
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">We’d love to hear from you</h1>
-
+            <h1 className="mt-2 text-xl sm:text-2xl font-semibold text-gray-800 md:text-3xl">We’d love to hear from you</h1>
             <p className="mt-3 text-primaryText">Chat to our friendly team.</p>
           </div>
 
           <img className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/photo-1568992688065-536aad8a12f6_1.jpg?v=1716291024" alt="" />
 
           <div className="max-w-7xl mx-auto grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 pt-10">
-            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
-              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
+            <div className="p-4 rounded-lg bg-orange-100 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-orange-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -32,18 +30,18 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+              <h2 className="mt-4 text-base font-medium text-gray-800">
                 Email
               </h2>
-              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-sm text-gray-500">
                 Email to our friendly team.
               </p>
-              <p className="mt-2 text-sm text-primaryText dark:text-blue-400">
-                support@trustedclasshelper@gmail.com
+              <p className="mt-2 text-sm text-primaryText">
+                {APP_EMAIL}
               </p>
             </div>
-            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
-              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
+            <div className="p-4 rounded-lg bg-orange-100 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-orange-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -62,23 +60,23 @@ const Contact = () => {
                   <path d="M16 12h.01" />
                 </svg>
               </span>
-              <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+              <h2 className="mt-4 text-base font-medium text-gray-800">
                 Chat to support
               </h2>
-              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-sm text-gray-500">
                 We’re here to help.
               </p>
               <button
                 onClick={() => {
                   Tawk_API.toggle();
                 }}
-                className="mt-2 text-sm text-primaryText dark:text-blue-400"
+                className="mt-2 text-sm text-primaryText cursor-pointer"
               >
                 Start new chat
               </button>
             </div>
-            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
-              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
+            <div className="p-4 rounded-lg bg-orange-100 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-orange-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -94,19 +92,19 @@ const Contact = () => {
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                 </svg>
               </span>
-              <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+              <h2 className="mt-4 text-base font-medium text-gray-800">
                 WhatsApp us
               </h2>
-              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-sm text-gray-500 ">
                 Chat to support
               </p>
-              <a href="https://api.whatsapp.com/send?phone=17163749747"
-                target="_blank" className="mt-2 text-sm text-primaryText dark:text-blue-400">
+              <a href="https://api.whatsapp.com/send?phone=13527716234"
+                target="_blank" className="mt-2 text-sm text-primaryText ">
                 Start new chat
               </a>
             </div>
-            <div className="p-4 rounded-lg bg-surfacev2 md:p-6">
-              <span className="inline-block p-3 text-primaryText rounded-lg bg-surface/80">
+            <div className="p-4 rounded-lg bg-orange-100 md:p-6">
+              <span className="inline-block p-3 text-primaryText rounded-lg bg-orange-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -122,14 +120,14 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+              <h2 className="mt-4 text-base font-medium text-gray-800 ">
                 Call Us
               </h2>
-              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-sm text-gray-500 ">
                 24/7
               </p>
-              <p className="mt-2 text-sm text-primaryText dark:text-blue-400">
-                +1 (716) 374-9747
+              <p className="mt-2 text-sm text-primaryText ">
+                {APP_PHONE}
               </p>
             </div>
           </div>

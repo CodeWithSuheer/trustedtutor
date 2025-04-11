@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import HomeView from "../../sections/homeView/view/homePage";
+import Contact from "../../sections/contactView/Contact";
 
 const ContactPage = () => {
     return (
@@ -9,7 +10,7 @@ const ContactPage = () => {
                 <title>Contact Us</title>
             </Helmet>
 
-            <HomeView />
+            <Contact />
         </>
     );
 };

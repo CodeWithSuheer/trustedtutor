@@ -20,7 +20,7 @@ const HomeHero = () => {
     return (
         <>
             <section className="text-white home_backgroundImage mb-0 lg:mb-0">
-                <div className="max-w-7xl mx-auto md:px-10 pt-16 pb-10 flex justify-center items-center min-h-[95vh] relative z-10">
+                <div className="max-w-7xl mx-auto md:px-10 pt-16 sm:pt-10 pb-10 flex justify-center items-center min-h-[95vh] relative z-10">
                     <div className="flex flex-col lg:flex-row justify-center items-center">
 
                         {/* CONTENT */}
@@ -44,12 +44,19 @@ const HomeHero = () => {
                             <div className="mt-6 flex justify-start flex-col w-full sm:flex-row gap-y-3 gap-x-3">
                                 <ButtonIcon text="Order Now " />
 
-                                <button
+                                {/* <button
                                     onClick={() => { Tawk_API.toggle(); }}
                                     className='relative bg-light text-[#F77927] text-center rounded-3xl px-5 py-2.5 flex justify-center items-center gap-2 bg-[length:200%_100%] bg-left hover:bg-right transition-all duration-500 ease-in-out cursor-pointer'
                                 >
                                     <IoChatbox size={20} />  Live Chat
-                                </button>
+                                </button> */}
+
+                                <a
+                                    className='relative bg-light text-[#F77927] text-center rounded-3xl px-5 py-2.5 flex justify-center items-center gap-2 bg-[length:200%_100%] bg-left hover:bg-right transition-all duration-500 ease-in-out cursor-pointer' href="https://api.whatsapp.com/send?phone=13527716234"
+                                    target="_blank"
+                                >
+                                    <IoChatbox size={20} />  Live Chat
+                                </a>
                             </div>
                         </div>
 
@@ -59,7 +66,7 @@ const HomeHero = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }
