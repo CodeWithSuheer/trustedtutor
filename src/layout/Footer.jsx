@@ -25,26 +25,20 @@ const Footer = () => {
 
                         <div className="hidden md:block w-px h-12 bg-white/30"></div>
 
-                        <div className="flex items-center mb-4 md:mb-0">
+                        <div className="flex items-center pt-2 mb-4 md:mb-0">
                             <div className="bg-light p-2 rounded-full mr-3">
                                 <FaEnvelope className="text-orange-600 text-md sm:text-xl" />
                             </div>
-                            <div>
-                                <div className="text-light text-sm sm:text-[1rem] font-bold">Email</div>
-                                <div className="text-light text-sm sm:text-[1rem]">{APP_EMAIL}</div>
-                            </div>
+                            <div className="text-light text-sm sm:text-[1rem]">{APP_EMAIL}</div>
                         </div>
 
                         <div className="hidden md:block w-px h-12 bg-white/30"></div>
 
-                        <div className="flex items-center">
+                        <div className="flex items-center pt-2">
                             <div className="bg-light p-2 rounded-full mr-3">
                                 <FaPhone className="text-orange-600 text-md sm:text-xl" />
                             </div>
-                            <div>
-                                <div className="text-light text-sm sm:text-[1rem] font-bold">Phone</div>
-                                <div className="text-light text-sm sm:text-[1rem]">{APP_PHONE}</div>
-                            </div>
+                            <div className="text-light text-sm sm:text-[1rem]">{APP_PHONE}</div>
                         </div>
                     </div>
                 </div>

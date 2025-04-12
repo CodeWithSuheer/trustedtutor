@@ -58,7 +58,7 @@ const Header = () => {
 
             {/* Call Us */}
             <div>
-              <div className="text-sm text-gray-600">Call Us At</div>
+              {/* <div className="text-sm text-gray-600">Call Us At</div> */}
               <div className="flex items-center">
                 <FaPhone className="text-orange-500 mr-2 rotate-90" />
                 <span className="font-semibold">{APP_PHONE}</span>
@@ -70,7 +70,7 @@ const Header = () => {
 
             {/* Live Chat */}
             <div className="cursor-pointer" onClick={() => { Tawk_API.toggle(); }}>
-              <div className="text-sm text-gray-600">Click Here To</div>
+              {/* <div className="text-sm text-gray-600">Click Here To</div> */}
               <div className="flex items-center">
                 <FaComments className="text-orange-500 mr-2" />
                 <span className="font-semibold">Start Live Chat</span>
