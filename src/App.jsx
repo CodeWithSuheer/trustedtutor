@@ -2,22 +2,25 @@ import { useRef } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import { Toaster } from "react-hot-toast";
-// Styles
-import "./App.css";
 
-// Components
-import ScrollToTop from "./utils/scroll-to-top";
-import WhatsappButton from "./components/whatsappButton";
+// Internal modules/components
+import ScrollToTop from "./utils/helpers/scroll-to-top";
 
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
-
-import NotFound from "./sections/NotFound";
+// Pages
 import HomePage from "./pages/home/homePage";
 import AboutPage from "./pages/about/aboutPage";
 import ContactPage from "./pages/contact/contactPage";
-import HeaderMobile from "./layout/HeaderMobile";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+
+// Components
+import Header from "./layout/Header";
+import HeaderMobile from "./layout/HeaderMobile";
+import Footer from "./layout/Footer";
+import NotFound from "./components/NotFound";
+import WhatsappButton from "./components/whatsappButton";
+
+// Styles
+import "./App.css";
 
 
 function App() {

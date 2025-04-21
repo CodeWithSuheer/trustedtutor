@@ -1,45 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary-one: #DB5400;
+  --color-primary-two: #E8A32E;
+  --color-secondary: #FAE9E9;
+  --color-accent: #FAF3F300;
+  --color-background: #FFFFFF;
+  --color-dark: #1f2937;
+  --color-light: #ffffff;
+}
+
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* --------- SCROLL BAR ---------  */
+
 body {
-    --sb-track-color: #ffffff;
-    --sb-thumb-color: #df5c0a;
-    --sb-size: 7px;
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #DB5400;
+  --sb-size: 7px;
 }
 
 body::-webkit-scrollbar {
-    width: var(--sb-size);
+  width: var(--sb-size);
 }
 
 body::-webkit-scrollbar-track {
-    background: var(--sb-track-color);
-    border-radius: 3px;
+  background: var(--sb-track-color);
+  border-radius: 3px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: var(--sb-thumb-color);
-    border-radius: 3px;
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
 }
 
 @supports not selector(::-webkit-scrollbar) {
-    body {
-        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-    }
-}
-
-.whatsapp-btn {
-    position: fixed;
-    bottom: 20px;
-    left: 25px;
-    background-color: #128c7e;
-    color: white;
-    z-index: 1000;
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
 
 .custom-shadow {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 25px;
+  background-color: #128c7e;
+  color: white;
+  z-index: 1000;
+}
+
+.comparisonBoxShadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* .custom_shadow {
+  -webkit-box-shadow: 0px 13px 61px 3px rgba(174, 93, 212, 0.75);
+  -moz-box-shadow: 0px 13px 61px 3px rgba(174, 93, 212, 0.75);
+  box-shadow: 0px 13px 61px 3px rgba(174, 93, 212, 0.75);
+} */

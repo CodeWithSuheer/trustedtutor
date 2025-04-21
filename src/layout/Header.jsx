@@ -36,7 +36,7 @@ const Header = () => {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center mb-4 lg:mb-0">
-            <img className='w-22' src={newLogo} alt="logo" />
+            <img className='w-20' src={newLogo} alt="logo" />
             <div className="ml-2">
               <div className="text-orange-500 font-bold text-lg leading-tight">TRUSTED</div>
               <div className="text-gray-700 font-bold text-lg leading-tight">CLASS HELPER</div>
