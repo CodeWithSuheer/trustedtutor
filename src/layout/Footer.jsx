@@ -10,7 +10,8 @@ const Footer = () => {
     const handleMoveToTop = () => {
         window.scroll(0, 0);
     };
-
+  
+    
     const getCurrentYear = () => new Date().getFullYear();
 
     return (
