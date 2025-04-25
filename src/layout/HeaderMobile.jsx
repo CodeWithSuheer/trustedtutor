@@ -81,7 +81,7 @@ const HeaderMobile = () => {
                 alt="logo"
               />
               <h2 className="text-gray-800 pt-1 text-md font-semibold">
-                Trusted Tutor
+                USA Class Experts
               </h2>
             </Link>
 

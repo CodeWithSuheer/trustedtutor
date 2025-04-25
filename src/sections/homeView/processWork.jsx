@@ -26,15 +26,15 @@ const HomeFaq = () => {
     const faqs = [
         {
             question: "Can You Assist Me with My Assignment?",
-            answer: "Absolutely! Our skilled writers at Trusted Tutor are prepared to handle your assignments. Just submit your order, and we'll deliver a thoroughly researched, high-quality paper customized to your needs."
+            answer: "Absolutely! Our skilled writers at USA Class Experts are prepared to handle your assignments. Just submit your order, and we'll deliver a thoroughly researched, high-quality paper customized to your needs."
         },
         {
             question: "Can You Help Me with My Assignment Confidentially?",
-            answer: "Certainly. At Trusted Tutor , we prioritize your privacy. Rest assured that your personal details and assignment information remain confidential, ensuring a secure and discreet experience."
+            answer: "Certainly. At USA Class Experts , we prioritize your privacy. Rest assured that your personal details and assignment information remain confidential, ensuring a secure and discreet experience."
         },
         {
             question: "How Can I Get Assistance with My Assignment?",
-            answer: "It's simple. Visit Trusted Tutor website, fill in the order form with your assignment details, and our team will quickly connect with you to offer the support you need."
+            answer: "It's simple. Visit USA Class Experts website, fill in the order form with your assignment details, and our team will quickly connect with you to offer the support you need."
         },
     ];
 

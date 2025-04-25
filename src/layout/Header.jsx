@@ -38,8 +38,8 @@ const Header = () => {
           <Link to="/" className="flex items-center mb-4 lg:mb-0">
             <img className='w-20' src={newLogo} alt="logo" />
             <div className="ml-2">
-              <div className="text-orange-500 font-bold text-lg leading-tight">TRUSTED</div>
-              <div className="text-gray-700 font-bold text-lg leading-tight">CLASS HELPER</div>
+              <div className="text-orange-500 font-bold text-lg leading-tight">USA</div>
+              <div className="text-gray-700 font-bold text-lg leading-tight uppercase">Class Experts</div>
             </div>
           </Link>
 

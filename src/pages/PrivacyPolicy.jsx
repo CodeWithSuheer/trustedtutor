@@ -3,9 +3,9 @@ const PrivacyPolicy = () => {
         <>
             <section className="bg-[#ebecf5]">
                 <div className="max-w-5xl px-4 sm:px-6 pt-12 pb-24 mx-auto min-h-screen">
-                    <h2 className='poppin text-3xl lg:text-4xl font-bold tracking-wide'>Privacy Policy – Trusted Tutor</h2>
+                    <h2 className='poppin text-3xl lg:text-4xl font-bold tracking-wide'>Privacy Policy – USA Class Experts</h2>
 
-                    <p className="mb-4 mt-3">Trusted Tutor is committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and disclose information we obtain from users of our website and services.</p>
+                    <p className="mb-4 mt-3">USA Class Experts is committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and disclose information we obtain from users of our website and services.</p>
 
                     <h2 className="mt-6 text-2xl font-bold mb-2">Information We Collect</h2>
                     <p className="mb-4">We collect the following types of information to provide and improve our services:</p>

@@ -25,9 +25,9 @@ const About = () => {
 
                     <div className="lg:flex-grow md:w-1/2 xl:pl-16 lg:pl-20 md:pl-16 flex flex-col text-left">
 
-                        <h1 className="mb-5 font-bold max-w-md text-3xl md:text-4xl text-[#272727]">About Trusted Tutor</h1>
-                        <p className="mb-6 leading-relaxed">Welcome to Trusted Tutor, your dependable resource for help with academic writing. We take great pride in being a dependable supplier of superior academic services. You will receive professional advice and help from our team of seasoned professionals with advanced degrees in a range of disciplines.</p>
-                        <p className="mb-6 leading-relaxed">We at Trusted Tutor are aware of the difficulties students have while pursuing their academic goals. Because of this, we provide thorough and reasonably priced academic support that is catered to your needs. Our main objective is to provide outstanding results and support your academic progress.</p>
+                        <h1 className="mb-5 font-bold max-w-md text-3xl md:text-4xl text-[#272727]">About USA Class Experts</h1>
+                        <p className="mb-6 leading-relaxed">Welcome to USA Class Experts, your dependable resource for help with academic writing. We take great pride in being a dependable supplier of superior academic services. You will receive professional advice and help from our team of seasoned professionals with advanced degrees in a range of disciplines.</p>
+                        <p className="mb-6 leading-relaxed">We at USA Class Experts are aware of the difficulties students have while pursuing their academic goals. Because of this, we provide thorough and reasonably priced academic support that is catered to your needs. Our main objective is to provide outstanding results and support your academic progress.</p>
 
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const About = () => {
                         <TbTargetArrow className='mx-auto' size={50} />
                         <h2 className='mt-3 text-4xl font-semibold '>Our Mission</h2>
                         <p className='mt-3 font-light'>
-                            Our goal at Trusted Tutor is to empower students by offering them dependable, convenient, and excellent academic support. In order to help students achieve academic success and overcome obstacles in their educational journey, we work hard to earn their trust as a partner. Our goal is to provide a welcoming environment where people can work together to advance learning, excellence, and growth.
+                            Our goal at USA Class Experts is to empower students by offering them dependable, convenient, and excellent academic support. In order to help students achieve academic success and overcome obstacles in their educational journey, we work hard to earn their trust as a partner. Our goal is to provide a welcoming environment where people can work together to advance learning, excellence, and growth.
                         </p>
                     </div>
 
@@ -51,7 +51,7 @@ const About = () => {
                         <MdRemoveRedEye className='mx-auto' size={50} />
                         <h2 className='mt-3 text-4xl font-semibold'>Our Vision</h2>
                         <p className='mt-3 font-light'>
-                            At Trusted Tutor, our mission is to be the premier academic help company, known for our dedication to student success and unmatched level of customer care. We picture a day when students from all backgrounds may get dependable, inexpensive academic support, enabling them to fulfil their educational aspirations. We hope to have a beneficial influence on students’ lives all around the world by assisting them in realizing their full potential and succeeding in their academic endeavors.
+                            At USA Class Experts, our mission is to be the premier academic help company, known for our dedication to student success and unmatched level of customer care. We picture a day when students from all backgrounds may get dependable, inexpensive academic support, enabling them to fulfil their educational aspirations. We hope to have a beneficial influence on students’ lives all around the world by assisting them in realizing their full potential and succeeding in their academic endeavors.
                         </p>
                     </div>
 

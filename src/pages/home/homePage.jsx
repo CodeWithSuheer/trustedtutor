@@ -6,7 +6,7 @@ const HomePage = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>TrustedTutor</title>
+                <title>USA Class Experts</title>
             </Helmet>
 
             <HomeView />

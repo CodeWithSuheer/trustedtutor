@@ -3,21 +3,21 @@ import Marquee from "react-fast-marquee";
 
 const data = [
     {
-        review: "I was drowning in assignments, but TrustedClassTutors took the pressure off. Now, I can focus on my job and still pass my classes.",
+        review: "I was drowning in assignments, but USA Class Experts took the pressure off. Now, I can focus on my job and still pass my classes.",
         name: "Emily R.",
         studentId: "Order #12345",
         img: "https://randomuser.me/api/portraits/women/21.jpg",
         rating: 5,
     },
     {
-        review: "My GPA went from a 2.5 to a 3.8 after using TrustedClassTutors. Their experts really know their stuff!",
+        review: "My GPA went from a 2.5 to a 3.8 after using USA Class Experts. Their experts really know their stuff!",
         name: "Liam T.",
         studentId: "Order #67890",
         img: "https://randomuser.me/api/portraits/men/22.jpg",
         rating: 5,
     },
     {
-        review: "I was worried about my info getting out, but TrustedClassTutors kept everything 100% confidential. I felt safe using their service.",
+        review: "I was worried about my info getting out, but USA Class Experts kept everything 100% confidential. I felt safe using their service.",
         name: "Sarah M.",
         studentId: "Order #24680",
         img: "https://randomuser.me/api/portraits/women/23.jpg",
@@ -45,7 +45,7 @@ const data = [
         rating: 5,
     },
     {
-        review: "I thought it would be expensive, but TrustedClassTutors offered great rates. Worth every penny for the peace of mind!",
+        review: "I thought it would be expensive, but USA Class Experts offered great rates. Worth every penny for the peace of mind!",
         name: "Ava S.",
         studentId: "Order #31415",
         img: "https://randomuser.me/api/portraits/women/27.jpg",
@@ -66,7 +66,7 @@ const data = [
         rating: 5,
     },
     {
-        review: "TrustedClassTutors saved my semester. I couldn't have done it without them. Highly recommend!",
+        review: "USA Class Experts saved my semester. I couldn't have done it without them. Highly recommend!",
         name: "Lucas B.",
         studentId: "Order #11235",
         img: "https://randomuser.me/api/portraits/men/30.jpg",

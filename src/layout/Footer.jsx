@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa6";
 import { APP_EMAIL, APP_PHONE } from "../constants/contants";
 import { MdEmail } from "react-icons/md";
 
-import newLogo from '../../public/asset/NewLogo2.png';
+import newLogo from '../../public/asset/logoW.png';
 
 
 const Footer = () => {
@@ -140,7 +140,7 @@ const Footer = () => {
 
                 {/* FOOTER BOTTOM PART  */}
                 <div className="text-sm py-7 px-4 md:px-10 border-t bg-surface text-center text-light">
-                    <p>Copyrights © {getCurrentYear()} All Rights Reserved by The Trusted Class Tutors</p>
+                    <p>Copyrights © {getCurrentYear()} All Rights Reserved by The USA Class Experts</p>
                 </div>
             </footer>
         </>
