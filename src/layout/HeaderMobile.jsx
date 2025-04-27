@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./components.css";
-import newLogo from '../assets/newLogo.png';
+import newLogo from '../../public/asset/newLogo.png';
 import { APP_PHONE } from "../constants/contants";
 
 

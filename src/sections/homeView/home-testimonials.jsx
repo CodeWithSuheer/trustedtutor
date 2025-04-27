@@ -89,7 +89,7 @@ export default function HomeTestimonials() {
 
                 <Marquee direction="left" className="relative testimonial_marquee overflow-visible mt-10">
                     {data.map((data, i) => (
-                        <div className="pt-10">
+                        <div key={i} className="pt-10">
                             <div className="mx-10 relative bg-white p-4 max-w-lg rounded-lg flex-1 overflow-visible flex flex-col px-6 items-center text-center">
                                 <div className="img absolute top-0 left-0 right-0 flex justify-center -mt-10">
                                     <img
